@@ -1,0 +1,41 @@
+
+.cuotas{
+
+background-color: $blue-05;
+border-radius: 8pt;
+
+
+height: 100vh;
+
+
+}
+
+.cuotas__titulo{
+    background-color: $blue-05;
+    padding: 20px;
+    
+}
+
+.cuotas__opciones{
+    margin-top: 16px;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+.cuotas__opcion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8pt;
+    background-color: $blue-05;
+    padding: 8pt;
+    margin: 13px 0pt;
+    height: 60px;
+    font-size: $small;
+
+}
+
+.Precio{
+    font-size: 24px;
+    color: $green;
+}

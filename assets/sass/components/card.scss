@@ -1,0 +1,69 @@
+
+
+
+.card{
+    background-color: $blue-05;
+    border-radius: 8pt;
+    margin-bottom: 16pt;
+
+    h6{
+        font-size: $medium;
+    }
+}
+
+.card__titulo{
+    display: flex;
+    justify-content: space-between;
+    background-color: $blue-05;
+ padding: 0 16pt;
+    align-items: center;
+}
+
+.card__item{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16pt;
+    &:hover{
+        background-color:$blue-05;
+    }
+}
+
+input{
+    &:checked {
+    .card__item{ background-color: green;}  
+    
+}}
+
+
+
+
+.card__footer{
+    background-color: $blue-05;
+    display: flex;
+    justify-content: flex-end;
+    padding: 8pt;
+
+p{
+    padding: 5pt;
+}
+    
+}
+
+.card__item-servicio{
+    padding-left: 10px;
+}
+
+.card__item-precio{
+    text-align: end;
+
+    p{
+        color: $gray;
+        font-size: $xx-small;
+        padding-top: 10px;
+    }
+    
+    
+}
+

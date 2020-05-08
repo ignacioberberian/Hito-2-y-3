@@ -1,0 +1,98 @@
+
+ 
+    
+
+
+           nav{
+             display: flex;
+             background-color: transparent;
+             align-items: center;
+             margin: 0 4vw;
+             height: 9vh;
+            
+           }
+
+           .nav__etiqueta{
+             padding: 0pt 16pt;
+           }
+
+           .nav__icon{
+            display: block;
+            width: 100%;
+         
+             
+             padding-left: 8px;
+           }
+           .material-icons.md-18 { font-size: 18px; }
+           .material-icons.md-24 { font-size: 24px; }
+           .material-icons.md-36 { font-size: 36px; }
+           .material-icons.md-48 { font-size: 48px; }
+
+          i{
+             color: $green;
+             
+           }
+
+
+
+           .nav__menu{
+
+            width: 75%;
+            height: 100%;
+            top: 0px;
+            left: -100%;
+            margin: 0;
+            position: fixed;
+            background-color: $background-blue;
+            z-index: 1;
+            box-shadow: 2px 2px 10px $background-blue;
+
+
+            ul li {
+              padding: 16px;
+display: flex;
+align-items: center;
+color: $white;
+font-size: $medium;
+
+
+span{
+  color: $green;
+}
+a{
+  padding-left: 8px;
+}
+
+              &:hover{
+                background-color: $blue-05;
+              }
+             
+          }
+
+           }
+
+
+           .nav__menu-perfil{
+
+text-align: start;
+            height: 25vh;
+             background-color: $dark-blue;
+             padding: 16px 16px;
+
+
+
+             h6{padding-top: 10px;
+              font-size: $small;
+             }
+
+             img{
+               padding-bottom: 10px;
+               
+             }
+
+
+
+
+
+             
+           }

@@ -1,0 +1,68 @@
+
+$o-fSize--16 : 16px;
+$o-fSize--25 : 25px;
+$o-fSize--35 : 35px;
+$o-fSize--40 : 40px;
+
+
+// Primer esquema de colore
+$black: #000000;
+$black-05:#000000bd;
+$white: #ffffff;
+$platinum: #f8f8f8;
+$gray:#bababa;
+
+//Segundo esquema de color
+
+$background-blue: #142E42;
+$blue: #2196f3;
+$blue-05: rgba(33, 149, 243, 0.144);
+$light-blue: #6ec6ff;
+$dark-blue: #0069c0;
+
+//Tercer esquema de color
+
+$green : #00ffd0;
+$dark-green:#00CB9F;
+$light-green: #6EFFFF;
+
+//Cuarto esquema de color
+
+$orange: #FF5100;
+$darkOrange:#C30F00;
+
+
+//Tipografia
+
+$roboto: 'Roboto', sans-serif;
+$rubik: 'Rubik', sans-serif; 
+
+// Peso de fuentes
+
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+
+//Tamaños
+
+$xxxx-large:130px;
+$xxx-large:100px;
+$xx-large:30px;
+$x-large:20px;
+$large:18px;
+$medium:16px;
+$small:14px;
+$x-small:12px;
+$xx-small:10px;
+
+$primary-font:$rubik;
+$second-font:$roboto;
+
+.Primary {
+    color: $green;
+}
+
+
+
+
+

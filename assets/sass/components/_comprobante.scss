@@ -1,0 +1,46 @@
+
+.comprobante{
+    background-color: $blue-05;
+    margin: 0 4vw;
+    padding: 0 16px;
+    border-radius: 8pt;
+    
+}
+
+.comprobante__head{
+
+padding-top: 16px;
+
+    h5{
+
+        padding-top: 16px;
+        font-size: $medium;
+    }
+
+
+}
+
+
+.comprobante__detalle{
+
+
+
+    li{
+padding: 16px 0;
+   
+        h5{
+            padding-top: 10px;
+            font-size: $medium;
+        }
+        p{
+            font-size: $xx-small;
+            color: $gray;
+        }
+    }
+}
+
+
+.comprobante__footer{
+    height: 32px;
+    font-size: $xx-small;
+}

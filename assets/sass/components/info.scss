@@ -1,0 +1,40 @@
+
+.info{
+    border: 1px solid $green;
+    border-radius: 4pt;
+    color: $green;
+    background-color: rgba(255, 255, 255, 0);
+    width: 47%;
+    box-sizing:border-box ;
+    position: relative;
+    padding: 1em;
+    padding-right: 0.5em;
+        
+}
+
+.info__space{
+    width: 3vw;
+
+}
+
+.info__etiqueta{
+    font-family: $second-font;
+    font-size: $x-small;
+    position: absolute;
+    top: -4pt;
+    left: 9pt;
+    
+    background-color: $background-blue;
+    padding: 0pt 9pt;
+
+
+}
+
+.info__boton{
+    float: right;
+    font-size: 24px;
+    font-family: $primary-font;
+    color: $green;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none;
+}

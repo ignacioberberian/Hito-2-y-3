@@ -1,0 +1,51 @@
+
+button{
+    border-style: none;
+    background-color: $green;    
+    font-family: $primary-font;
+    border-radius: 4pt;
+    font-weight: $regular;
+    color: $black-05;
+    &:hover{
+        background-color: $dark-green;
+        color: $white;
+    }
+
+
+
+}
+.boton__agregar{
+    box-sizing: border-box;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    font-size: $x-large;
+   font-weight: $bold;
+   background-color: $green;
+   
+
+}
+
+.boton__corto{
+    font-size: $small;
+   
+    width: 100px;
+    height: 36px;
+    margin: 5pt;
+
+    a{
+        color: $black-05;
+    }
+
+}
+
+
+.boton__largo{
+    margin-top: 16px;
+    
+    height: 48px;
+    
+    width: 285px;
+    
+    
+}

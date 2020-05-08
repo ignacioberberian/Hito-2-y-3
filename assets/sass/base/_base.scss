@@ -1,0 +1,19 @@
+/* @media only screen and(min-width :1200px) {body{
+    width: 100px;
+    padding: 30px;
+    margin: 0px, auto;
+    background-color: red;
+  }} */
+  
+  body {
+    /* width: 375px; */
+  /*   padding: 1em; */
+    margin: 0 auto; 
+    background-color: $background-blue;
+    
+  }
+.btn-outline-primary {
+
+  border-color: $green;
+}
+
